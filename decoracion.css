@@ -1,0 +1,171 @@
+
+
+header {
+    background-color: #333;
+    color:#333;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  .image-container {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  body {
+    background-color: #333;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+
+}
+
+.containers {
+    display: fleX ;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contenedorg
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.caja1,
+.caja2 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container {
+
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 1800px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image-container {
+    background-color: red;
+    margin: 5px 0;
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.image {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+}
+
+
+.social-icons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+
+}
+.titulo {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    font-size: x-large;
+}
+.cajas {
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-size: x-large;
+}
+
+#animated-image {
+  position: relative;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100px;
+  }
+}
